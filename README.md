@@ -19,7 +19,7 @@ It allows members to register, verify via OTP, earn loyalty points from purchase
 ---
 
 ## 🛠️ Tech Stack
-
+- **Frontend:** HTML, CSS, JS
 - **Backend:** ASP.NET Core (.NET 8)  
 - **Database:** PostgreSQL  
 - **ORM:** Entity Framework Core (Npgsql)  
@@ -29,7 +29,6 @@ It allows members to register, verify via OTP, earn loyalty points from purchase
 ---
 
 ## 📦 Prerequisites
-
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)  
 - [PostgreSQL 14+](https://www.postgresql.org/download/)  
 - [Postman](https://www.postman.com/downloads/)  
@@ -37,7 +36,6 @@ It allows members to register, verify via OTP, earn loyalty points from purchase
 ---
 
 ## ⚙️ Setup & Installation
-
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/Loyalty-Project.git
@@ -89,6 +87,7 @@ POST /api/member/verify
 { "mobileNumber": "9999999999", "otpCode": "123456" }
 ➡️ Response includes a JWT token.
 ```
+
 **3. Authorise**
 Use the JWT in all protected endpoints:
 Authorization: Bearer <your-token>
@@ -98,6 +97,7 @@ POST /api/points/add
 ```
 { "memberId": 1, "purchaseAmount": 1200, "description": "Order #A1" }
 ```
+
 **5. Get balance**
 GET /api/points/1
 
@@ -112,7 +112,6 @@ POST /api/coupons/redeem
 ### 🧪 Testing Options
 ✔️ Swagger UI
 ```Go to http://localhost:5000/swagger```
-.
 
 ✔️ Postman
 ```
@@ -121,4 +120,6 @@ POST /api/coupons/redeem
 - Paste the JWT into collection variable token
 ```
 
+---
+#### Made By Anubhav Kushwaha
 
