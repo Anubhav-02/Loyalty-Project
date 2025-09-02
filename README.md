@@ -115,6 +115,7 @@ POST /api/coupons/redeem
 
 ✔️ Postman 
 [Postman Collection URL](https://www.postman.com/anubhav-02/loyalty-api-collection/collection/w1gpez9/loyalty-api-collection)
+**Or**
 ```
 - Import LoyaltyApi.postman_collection.json into Postman.
 - Set baseUrl = http://localhost:5000
