@@ -113,11 +113,11 @@ POST /api/coupons/redeem
 ✔️ Swagger UI
 ```Go to http://localhost:5000/swagger```
 
-✔️ Postman [Postman Collection URL] (https://www.postman.com/anubhav-02/loyalty-api-collection/collection/w1gpez9/loyalty-api-collection)
+✔️ Postman 
+[Postman Collection URL](https://www.postman.com/anubhav-02/loyalty-api-collection/collection/w1gpez9/loyalty-api-collection)
 ```
 - Import LoyaltyApi.postman_collection.json into Postman.
 - Set baseUrl = http://localhost:5000
-- Paste the JWT into collection variable token
 ```
 
 ---
